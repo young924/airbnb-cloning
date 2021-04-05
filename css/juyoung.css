@@ -143,6 +143,7 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
+    width: 310px;
 }
 
 .content-2 button img {
@@ -151,7 +152,7 @@ header {
 }
 
 .content-2 button div {
-    margin: 0 20px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
