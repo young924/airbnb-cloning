@@ -127,8 +127,8 @@ header {
     width: 85%;
 }
 
-.content-2 h1 {
-    font-size: 45px;
+.content-2 h2 {
+    font-size: 40px;
     font-weight: 500;
     margin: 70px 0 20px 10px;
 }
@@ -161,4 +161,36 @@ header {
 
 .content-2 button div p {
     margin: 0;
+}
+
+/* CONTENT 2 */
+.content-3 {
+    width: 85%;
+}
+
+.content-3 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 40px 0 20px 10px;
+}
+
+.content-3 article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-3 button {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.content-3 img {
+    width: 290px;
+    border-radius: 10px;
+}
+
+.content-3 b {
+    margin: 10px 0;
+    font-size: 20px;
 }
