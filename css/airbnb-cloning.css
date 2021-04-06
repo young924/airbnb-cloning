@@ -58,10 +58,10 @@ header {
     margin-left: 20px;
     padding: 10px 5px;
     border: none;
+    font-size: 18px;
 }
 
 .search input::placeholder {
-    font-size: 18px;
     color: black;
 }
 
@@ -135,15 +135,19 @@ header {
 
 .content-2 article {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.content-2 .row {
+    display: flex;
 }
 
 .content-2 button {
     display: flex;
     align-items: center;
     padding: 10px;
-    width: 310px;
+    width: 400px;
 }
 
 .content-2 button img {
@@ -186,7 +190,7 @@ header {
 }
 
 .content-3 img {
-    width: 290px;
+    width: 320px;
     border-radius: 10px;
 }
 
