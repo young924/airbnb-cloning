@@ -2,46 +2,53 @@
 
 .start-hosting {
     margin-top: 80px;
+    width: 85%;
 }
 
 .start-hosting img {
-    width: calc(100% - 160px);   
+    width: 100%;  
 }
 
 /* CONTENT 5 */
 
 .experience {
     margin-top: 80px;
+    width: 85%;
 }
 
 .experience > .title {
-    font-size: 30px;
-    font-style: bold;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .experience > .description {
-    margin-top: 10px;
-    font-size: 23px;
+    margin-top: 5px;
+    font-size: 30px;
 }
 
 .experience-list {
     display: flex;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
     margin-bottom: 75px;
 }
 
+.experience-list .experience-list-element {
+    width: 32.5%;
+}
+
 .experience-list .experience-list-element img {
-    width: 415px;
+    width: 100%;
 }
 
 .experience-list .experience-list-element > .title {
-    margin-top: 10px;
-    font-style: bold;
+    margin-top: 5px;
+    font-weight: 500;
     font-size: 18px;
 }
 
 .experience-list .experience-list-element > .description {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 13px;
 }
 
