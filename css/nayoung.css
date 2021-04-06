@@ -1,3 +1,52 @@
+/* CONTENT 4 */
+
+.start-hosting {
+    margin-top: 80px;
+}
+
+.start-hosting img {
+    width: calc(100% - 160px);   
+}
+
+/* CONTENT 5 */
+
+.experience {
+    margin-top: 80px;
+}
+
+.experience > .title {
+    font-size: 30px;
+    font-style: bold;
+}
+
+.experience > .description {
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.experience-list {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.experience-list .experience-list-element img {
+    width: 415px;
+}
+
+.experience-list .experience-list-element > .title {
+    margin-top: 10px;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.experience-list .experience-list-element > .description {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+/* FOOTER */
+
 footer {
     background-color: #f7f7f7;
     margin-top: 30px;
@@ -22,7 +71,7 @@ footer {
 }
 
 .footer1-section > .title {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold
 }
 
@@ -34,11 +83,26 @@ footer {
     align-items: center;
 }
 
+.footer2-left .divider {
+    margin: 0 3px;
+}
+
 .footer2-right {
     display: flex;
     align-items: center;
 }
 
+.footer2-right .country-setting {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.footer2-right .country-setting img {
+    width: 30px;
+}
+
 .footer2-right .icon-list {
-    margin-left: 50px;
+    margin-left: 40px;
 }
